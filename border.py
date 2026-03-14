@@ -2,7 +2,6 @@ import pygame
 import random
 import math
 
-# --- CONFIGURATION ---
 WIDTH, HEIGHT = 1200, 800
 FPS = 60
 BG_COLOR = (2, 5, 15)  # Deep Midnight Blue
@@ -35,7 +34,6 @@ class Particle:
         self.is_flag = is_flag
         self.size = random.randint(1, 3)
         self.waving_offset = random.uniform(0, 100)
-
     def apply_force(self, force):
         self.acc += force
 
@@ -51,7 +49,7 @@ class Particle:
         arrival_force = self.arrive(self.target)
         self.apply_force(arrival_force)
 
-        # 3. Flee from Mouse
+       
         m_pos = pygame.Vector2(mouse_pos)
         if self.pos.distance_to(m_pos) < MOUSE_RADIUS:
             flee_force = self.flee(m_pos)
