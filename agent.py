@@ -17,10 +17,9 @@ from livekit.plugins import (
     openai as lk_openai,
     noise_cancellation,
 )
-# FIXED: Correct Google Realtime import
+
 from livekit.plugins.google.beta import realtime as google_realtime
 
-# ---------------------- YOUR MODULE IMPORTS ----------------------
 from jarvis_prompts import behavior_prompts, Reply_prompts
 from jarvis_screenshot import screenshot_tool
 from jarvis_google_search import google_search, get_current_datetime
