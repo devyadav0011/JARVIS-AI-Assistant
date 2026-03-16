@@ -31,7 +31,6 @@ except Exception:
 
 from keyboard_mouse_CTRL import type_text_tool
 
-#==== LOGGER ====#
 sys.stdout.reconfigure(encoding="utf-8")
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("JARVIS-WINDOW")
