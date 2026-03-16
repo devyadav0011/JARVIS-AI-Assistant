@@ -6,10 +6,8 @@ from dotenv import load_dotenv
 from livekit.agents import function_tool
 from datetime import datetime
 
-# Load environment variable
 load_dotenv()
 
-# Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
