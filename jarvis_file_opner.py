@@ -96,7 +96,7 @@ async def open_system_file_explorer() -> str:
     Opens the system's default file explorer to the current directory.
     """
     try:
-        if os.name == 'nt':  # For Windows
+        if os.name == 'nt':  
             os.startfile('.')
             return "✅ File Explorer opened to the current directory."
         else:
