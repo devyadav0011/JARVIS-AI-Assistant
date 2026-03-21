@@ -1,4 +1,4 @@
-# JARVIS-AI-Assistant
+⁸# JARVIS-AI-Assistant
 A smart voice-enabled AI assistant inspired by Jarvis, designed to automate tasks, answer queries, and interact naturally using speech and text.
 
 🚀 Features
@@ -16,3 +16,10 @@ A smart voice-enabled AI assistant inspired by Jarvis, designed to automate task
 🧠 Memory & personalization
 🔗 IoT / smart home control
 🧾 Task scheduling & reminders
+
+🧠 How It Works
+Captures voice input
+Converts speech → text
+Processes using AI / rules
+Executes command or generates response
+Converts response → speech
