@@ -48,7 +48,6 @@ class Particle:
         arrival_force = self.arrive(self.target)
         self.apply_force(arrival_force)
 
-       
         m_pos = pygame.Vector2(mouse_pos)
         if self.pos.distance_to(m_pos) < MOUSE_RADIUS:
             flee_force = self.flee(m_pos)
