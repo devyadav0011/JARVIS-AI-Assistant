@@ -3,7 +3,6 @@ import mediapipe as mp
 import numpy as np
 import random
 
-
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(max_num_hands=2, min_detection_confidence=0.8, min_tracking_confidence=0.8)
 
