@@ -2,7 +2,7 @@
 
 A smart voice-enabled AI assistant inspired by Jarvis, designed to automate tasks, answer queries, and interact naturally using speech and text.
 
-🚀 Features
+## 🚀 Features
 
 🎙️ Voice recognition (Speech-to-Text)
 
@@ -19,7 +19,7 @@ A smart voice-enabled AI assistant inspired by Jarvis, designed to automate task
 ⚡ Fast and customizable commands
 
 
-🔧 Future Improvements
+## 🔧 Future Improvements
 
 🖥️ GUI interface
 
@@ -32,7 +32,7 @@ A smart voice-enabled AI assistant inspired by Jarvis, designed to automate task
 🧾 Task scheduling & reminders
 
 
-🧠 How It Works
+## 🧠 How It Works
 
 Captures voice input
 
